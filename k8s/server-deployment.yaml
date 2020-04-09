@@ -13,7 +13,7 @@ spec:
         component: server  
     spec:
       containers:
-        - name: server
+        - name: api
           image: jdchancellor/multi-server
           ports:
             - containerPort: 5000
